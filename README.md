@@ -4,7 +4,7 @@
 ![Sample Input](./screenshot/pic1.png)
 
 ### Sample Screenshot2
-![Sample Output](./screenshot/pic1.png)
+![Sample Output](./screenshot/pic2.png)
 
 
 ## Project Overview
