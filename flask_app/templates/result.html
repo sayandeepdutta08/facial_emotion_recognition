@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <div class="form-container">
+        <h2>The predicted emotion is:</h2>
+        <h3 style="color: #ffd700;">{{ prediction }}</h3>
+        <br>
+        <a href="/">Predict Another Emotion</a>
+    </div>
+    <footer>
+        &copy; 2025 Sayandeep Dutta
+    </footer>
+</body>
+</html>

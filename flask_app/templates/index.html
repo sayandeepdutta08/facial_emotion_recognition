@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Emotion Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Facial Emotion Recognition</h1>
+    <div class="form-container">
+        <h2>Upload an Image</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <br><br>
+            <button type="submit">Predict Emotion</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>How It Works</h2>
+        <p>Upload an image, and our model will predict the emotion!</p>
+        <img src="{{ url_for('static', filename='sample_resized.jpg') }}" class="sample-image" alt="Sample Emotion">
+        <p><strong>Sample Prediction:</strong> {{ sample_prediction }}</p>
+    </div>
+    
+    <footer>
+        &copy; 2025 Sayandeep Dutta
+    </footer>
+</body>
+</html>
