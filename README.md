@@ -1,5 +1,12 @@
 # Facial Emotion Recognition Using CNN
 
+### Sample Screenshot1
+![Sample Input](./screenshot/pic1.png)
+
+### Sample Screenshot2
+![Sample Output](./screenshot/pic1.png)
+
+
 ## Project Overview
 This project focuses on building a **Facial Emotion Recognition System** using Convolutional Neural Networks (CNNs). The system is capable of identifying emotions from images, such as **anger**, **contempt**, **disgust**, **fear**, **happy**, **sad**, and **surprised**. The dataset contains images categorized by emotions, along with metadata about the individuals (age, gender, and country).
 
